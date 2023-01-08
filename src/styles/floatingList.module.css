@@ -1,0 +1,99 @@
+.view { 
+  background: url("https://www.lifeatspotify.com/images/1000x1000/Start-2000.jpg") #db332a;
+  background-size: cover;
+  width: 85vw;
+  height: 90vh;
+  padding: 2rem;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text_box {
+  color: white;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.text_box > p {
+  font-size: 1.05rem;
+}
+
+.text_box span {
+  font-weight: 700;
+}
+
+
+.heading {
+  font-size: 4.5rem;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 2.5rem;
+}
+
+.btn{
+  padding: 1rem 1.75rem;
+  border-radius: 3rem;
+  background-color: black;
+  color: #ffffff;
+  width: fit-content;
+  /* font-size: 24px; */
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 2.75rem;
+}
+
+.list > div {
+  padding: 1rem 2.5rem;
+  border-radius: 1.15rem;
+}
+
+.list_item_a {
+  background-color: #ffcdd2;
+  align-self: flex-start;
+}
+
+.list_item_b {
+  background-color: #ffffff;
+  align-self: center;
+}
+
+.list_item_c {
+  background-color: #c3f0c8;
+  align-self: flex-start;
+}
+
+.list_item_d {
+  background-color: #ffcdd2;
+  align-self: flex-end;
+}
+
+.list_item_e {
+  background-color: #ffffff;
+  align-self: flex-start;
+}
+
+.list_item_f {
+  background-color: #c3f0c8;
+  align-self: center;
+}
+
+.list h3 {
+  color: #19141466;
+  font-weight: 500;
+  font-size: 15.5px;
+  margin-bottom: 0.5rem;
+}
+
+.list p {
+  color: #191414cc;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 0px;
+}
