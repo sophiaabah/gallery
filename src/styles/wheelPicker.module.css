@@ -1,0 +1,11 @@
+.view { 
+  /* background: url("https://www.lifeatspotify.com/images/1000x1000/Start-2000.jpg") #db332a; */
+  background-color: rgb(212, 227, 255);
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 40px;
+  align-items: center;
+  justify-items: center;
+}

@@ -1,12 +1,10 @@
 .view { 
   background: url("https://www.lifeatspotify.com/images/1000x1000/Start-2000.jpg") #db332a;
   background-size: cover;
-  width: 85vw;
-  height: 90vh;
-  padding: 2rem;
-  border-radius: 1em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 2rem;
 }
 
 .text_box {
@@ -18,6 +16,7 @@
 
 .text_box > p {
   font-size: 1.05rem;
+  margin-bottom: 0px;
 }
 
 .text_box span {
@@ -42,16 +41,28 @@
   font-weight: 500;
 }
 
+.container {
+  overflow-y: hidden;
+  width: 100%;
+  max-width: 550px;
+}
+
 .list {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  gap: 2.75rem;
+  gap: 80px;
+
 }
 
 .list > div {
-  padding: 1rem 2.5rem;
+  padding: 0.75rem 2rem;
   border-radius: 1.15rem;
+  padding-right: 3.5rem;
+  min-height: 80px;
+  min-width: 280px;
+  cursor: pointer;
+  
+
 }
 
 .list_item_a {
@@ -70,7 +81,7 @@
 }
 
 .list_item_d {
-  background-color: #ffcdd2;
+  background-color: #ffffff;
   align-self: flex-end;
 }
 
@@ -92,8 +103,8 @@
 }
 
 .list p {
-  color: #191414cc;
+  color: rgba(0, 0, 0, 0.7);
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 0px;
 }

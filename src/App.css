@@ -1,7 +1,15 @@
 .container{
   display: flex;
-  flex-direction: row;
+  gap: 1.5rem;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
-  margin-top: 2rem;
+  position: relative;
+}
+
+.cardSize{
+  width: 85vw;
+  height: 86vh;
+  padding: 2rem;
+  border-radius: 1em;
 }
